@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated SHUVO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="loader">
+        <svg height="0" width="0" viewBox="0 0 64 64" class="absolute">
+            <defs>
+                <linearGradient id="b" x1="0" y1="62" x2="0" y2="2" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#973BED"></stop>
+                    <stop stop-color="#007CFF" offset="1"></stop>
+                </linearGradient>
+                <linearGradient id="c" x1="0" y1="64" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FFC800"></stop>
+                    <stop stop-color="#F0F" offset="1"></stop>
+                </linearGradient>
+                <linearGradient id="d" x1="0" y1="62" x2="0" y2="2" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#00E0ED"></stop>
+                    <stop stop-color="#00DA72" offset="1"></stop>
+                </linearGradient>
+            </defs>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 64 64" height="64" width="64"
+            class="inline-block">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="8" stroke="url(#b)"
+                d="M 20,10 Q 5,20 20,32 Q 35,44 20,54" class="dash" id="s" pathLength="360"></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 64 64" height="64" width="64"
+            class="inline-block">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="8" stroke="url(#c)"
+                d="M 10,10 V 54 M 10,32 H 30 M 30,10 V 54" class="dash" id="h" pathLength="360"></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 64 64" height="64" width="64"
+            class="inline-block">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="8" stroke="url(#d)"
+                d="M 10,10 V 40 Q 20,54 32,40 V 10" class="dash" id="u" pathLength="360"></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 64 64" height="64" width="64"
+            class="inline-block">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="8" stroke="url(#d)"
+                d="M 10,10 L 30,54 L 50,10" class="dash" id="v" pathLength="360"></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 64 64" height="64" width="64"
+            class="inline-block">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="8" stroke="url(#c)"
+                d="M 32 10 A 22 22 0 1 1 31.99 10" class="spin" id="o" pathLength="360"></path>
+        </svg>
+    </div>
+</body>
+
+</html>
